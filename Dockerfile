@@ -5,7 +5,7 @@ ENV LANG en_US.utf8
 ARG Ngrok
 ARG Password
 ENV Password=snnt23
-ENV Ngrok=2Tz1R4lPbGBt5em36Xf1VCgI15R_818MBn445FQUHZPBw9xDv}
+ENV Ngrok=2Tz6f2kZUaZBhck5aXB4cCI0K4r_3sX6c8AFDtdK3Bd12wjx
 RUN apt install ssh wget unzip -y > /dev/null 2>&1
 RUN wget -O ngrok.zip https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.zip > /dev/null 2>&1
 RUN unzip ngrok.zip
